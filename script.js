@@ -6,15 +6,15 @@
 //A letra "u" é convertida para "ufat"
 
 function criptografar() {
-  var texto = document.getElementById('inputTexto').value.tolowerCase
+  var texto = document.getElementById('inputTexto').value.toLowerCase()
   //Para que afete o texto colocado tanto com letra e ou E
   //Para toda linha da oração
   //Para que afete a multiplas linhas do paragrafo
-  var txtCriptografado = texto.replace(/e/gim, 'enter')
-  var txtCriptografado = txtCriptografado.replace(/o/gim, 'obter')
-  var txtCriptografado = txtCriptografado.replace(/i/gim, 'imes')
-  var txtCriptografado = txtCriptografado.replace(/a/gim, 'ai')
-  var txtCriptografado = txtCriptografado.replace(/u/gim, 'ufat')
+  var txtCriptografado = texto.replace(/e/g, 'enter')
+  var txtCriptografado = txtCriptografado.replace(/o/g, 'obter')
+  var txtCriptografado = txtCriptografado.replace(/i/g, 'imes')
+  var txtCriptografado = txtCriptografado.replace(/a/g, 'ai')
+  var txtCriptografado = txtCriptografado.replace(/u/g, 'ufat')
 
   document.getElementById('imgDireita').style.display = 'none'
   document.getElementById('texto').style.display = 'none'
@@ -23,8 +23,8 @@ function criptografar() {
   document.getElementById('copiar').style.display = 'inherit'
 }
 
-function Descriptografar() {
-  var texto = document.getElementById('inputTexto').value.tolowerCase
+function descriptografar() {
+  var texto = document.getElementById('inputTexto').value.toLowerCase()
   //Para que afete o texto colocado tanto com letra e ou E
   //Para toda linha da oração
   //Para que afete a multiplas linhas do paragrafo
@@ -42,8 +42,8 @@ function Descriptografar() {
 }
 
 function copiar() {
-  var conteudoCopiar = document.querySelector('texto2')
+  var conteudoCopiar = document.querySelector('#texto2')
   conteudoCopiar.select()
   document.execCommand('copy')
-  alert('Conteudo Copiado!')
+  alert('Conteúdo Copiado!')
 }

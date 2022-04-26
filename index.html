@@ -2,11 +2,12 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge 1 - Oracle Alura</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -28,24 +29,23 @@
         <img src="img/garoto_ladodireito.png" id="imgDireita" />
         <h1 id="texto">Nenhuma mensagem foi encontrada</h1>
         <textarea id="texto2" name="name" rows="8" cols="80">
-Entre com o texto que deseja Codificar ou Descodificar.</textarea
+Entre com o texto Codificar ou Descodificar.</textarea
         >
-        <button
-          id="copiar"
-          type="button"
-          name="button"
-          onclick="criptografar()"
-        >
+        <button id="copiar" type="button" name="button" onclick="copiar()">
           Copiar!
         </button>
       </div>
 
       <div class="left button">
         <p>Use somente letra minusculas e sem acento</p>
-        <button type="button" id="btn-codificar" onclick="criptografar()">
-          riptografar
+        <button type="button" id="btn-criptografar" onclick="criptografar()">
+          Criptografar
         </button>
-        <button type="button" id="btn-descodificar" onclick="descriptografar()">
+        <button
+          type="button"
+          id="btn-descriptografar"
+          onclick="descriptografar()"
+        >
           Descriptografar
         </button>
       </div>
