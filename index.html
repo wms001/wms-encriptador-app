@@ -11,29 +11,44 @@
   <body>
     <div class="container">
       <div class="logo">
-         <img class="logoImg" src="img/logo_alura.png">
-         <h1 class="title">Decodificador de Texto</h1>
+        <img class="logoImg" src="img/logo_alura.png" />
+        <h1 class="title">Decodificador de Texto</h1>
       </div>
 
       <div class="left">
-        <input class="text-input" id="inputTexto" type="text" placeholder="Digite seu texto Aqui">
+        <input
+          class="text-input"
+          id="inputTexto"
+          type="text"
+          placeholder="Digite seu texto Aqui"
+        />
       </div>
-      
+
       <div class="right">
-        <img src="img/garoto_ladodireito.png" id="imgDireita">
+        <img src="img/garoto_ladodireito.png" id="imgDireita" />
         <h1 id="texto">Nenhuma mensagem foi encontrada</h1>
-        <textarea id="texto2" name="name" rows="8" cols="80">Entre com o texto que deseja Codificar ou Descodificar.</textarea>
-        <button id="copiar" type="button" name="button" onclick="criptografar()">Copiar!</button>
+        <textarea id="texto2" name="name" rows="8" cols="80">
+Entre com o texto que deseja Codificar ou Descodificar.</textarea
+        >
+        <button
+          id="copiar"
+          type="button"
+          name="button"
+          onclick="criptografar()"
+        >
+          Copiar!
+        </button>
       </div>
 
       <div class="left button">
         <p>Use somente letra minusculas e sem acento</p>
-        <button type="button" id="btn-codificar" onclick="criptografar()">riptografar</button>
-        <button type="button" id="btn-descodificar" onclick="descriptografar()">Descriptografar</button>
+        <button type="button" id="btn-codificar" onclick="criptografar()">
+          riptografar
+        </button>
+        <button type="button" id="btn-descodificar" onclick="descriptografar()">
+          Descriptografar
+        </button>
       </div>
-
-     
-
-    
+    </div>
   </body>
 </html>
