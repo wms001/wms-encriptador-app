@@ -1,21 +1,20 @@
-/*
-Código chave para criptografia
-A letra "e" é convertida para "enter"
-A letra "i" é convertida para "imes"
-A letra "a" é convertida para "ai"
-A letra "o" é convertida para "ober"
-A letra "u" é convertida para "ufat"*/
+//Código chave para criptografia
+//A letra "e" é convertida para "enter"
+//A letra "i" é convertida para "imes"
+//A letra "a" é convertida para "ai"
+//A letra "o" é convertida para "ober"
+//A letra "u" é convertida para "ufat"
 
 function criptografar() {
-  var texto = document.getElementById('inputTexto').value.tolowerCase()
+  var texto = document.getElementById('inputTexto').value.tolowerCase
   //Para que afete o texto colocado tanto com letra e ou E
   //Para toda linha da oração
   //Para que afete a multiplas linhas do paragrafo
-  var txtCriptografado = texto.replace(/e/g, 'enter')
-  var txtCriptografado = txtCriptografado.replace(/o/g, 'obter')
-  var txtCriptografado = txtCriptografado.replace(/i/g, 'imes')
-  var txtCriptografado = txtCriptografado.replace(/a/g, 'ai')
-  var txtCriptografado = txtCriptografado.replace(/u/g, 'ufat')
+  var txtCriptografado = texto.replace(/e/gim, 'enter')
+  var txtCriptografado = txtCriptografado.replace(/o/gim, 'obter')
+  var txtCriptografado = txtCriptografado.replace(/i/gim, 'imes')
+  var txtCriptografado = txtCriptografado.replace(/a/gim, 'ai')
+  var txtCriptografado = txtCriptografado.replace(/u/gim, 'ufat')
 
   document.getElementById('imgDireita').style.display = 'none'
   document.getElementById('texto').style.display = 'none'
@@ -25,7 +24,7 @@ function criptografar() {
 }
 
 function Descriptografar() {
-  var texto = document.getElementById('inputTexto').value.tolowerCase()
+  var texto = document.getElementById('inputTexto').value.tolowerCase
   //Para que afete o texto colocado tanto com letra e ou E
   //Para toda linha da oração
   //Para que afete a multiplas linhas do paragrafo
