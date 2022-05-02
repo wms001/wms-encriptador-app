@@ -46,4 +46,5 @@ function copiar() {
   conteudoCopiar.select()
   document.execCommand('copy')
   alert('Conteúdo Copiado!')
+  alert('Clique em Limpar para Encriptografar nova mensagem!')
 }
