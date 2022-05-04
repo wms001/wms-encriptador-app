@@ -1,6 +1,6 @@
 ### Primeiro -  Desafio Oracle/Alura 
 
-Criar site para Encriptografar mensagens. 
+Criar site para encriptografia de mensagens. 
 
 Desenvolvi o projeto da seguinte forma:
 
@@ -12,10 +12,8 @@ Desenvolvi o projeto da seguinte forma:
 ✔ Codificação JavaScript 
         Lógica de Encriptografia
         Funcionalidades e Alertas
-✔ Extra adicionado :
-        Melhora na interface para o usuário 
-        Criação de Botão "Limpar" 
-        Criação do Alerta "Informando que a mensagem foi copiada para area de transferência"
+✔ Extra:
+        Melhora na interface para o usuário com a criação de botão "Limpar" e o adicionamento do alerta "Informando que a mensagem foi copiada para área de transferência"
         
         
 ## Base do Layout usado na codificação do Front End
