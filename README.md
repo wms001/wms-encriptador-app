@@ -20,7 +20,11 @@ Desenvolvi o projeto da seguinte forma:
         
 ## Base do Layout usado na codificação do Front End
 
+<img src="https://github.com/wms001/wms-encriptador-app/blob/main/img/Layout_Encript.JPG">
 
+# Link para o site: 
+     https://wms001.github.io/wms-encriptador-app/ 
+    
         
 
      
