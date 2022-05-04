@@ -18,9 +18,9 @@ Desenvolvi o projeto da seguinte forma:
         Criação do Alerta "Informando que a mensagem foi copiada para area de transferência 
         Criação do Alerta em sequência para "Limpar a tela e direção de onde clicar para encriptografar nova mensagem
         
-## Layout usado na codificação do Front End
+## Base do Layout usado na codificação do Front End
 
-<img src=
+
         
 
      
